@@ -1,0 +1,55 @@
+.maincontainer
+{
+  max-width: 350px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px 		white;
+  min-height: 450px;
+  margin-top: 50px;
+  padding: 15px 50px;
+  background-color: 	black;
+}
+.colorwhite{
+  color: white;
+}
+
+.centerAllign{
+  text-align: center;
+}
+.color1{
+  color: green;
+}
+
+.color2{
+  color: red;
+}
+
+.IncomeExpense
+{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+}
+
+.transaction-form input
+{
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+
+.transaction-list{
+  margin: 0;
+  padding: 0;
+}
+
+.transaction-list > li
+{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px gray;
+  padding: 10px 5px;
+  margin: 5px 0;
+  background-color: white;
+}
